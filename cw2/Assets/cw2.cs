@@ -16,13 +16,10 @@ public class cw2 : MonoBehaviour
     int villiainage = 16;
     string villiansuperpower = "evil";
 
-   int agedifference = 20 - 16;
+   
 
 
-    print("I am" + heroname + "I am" + herohieght + "feet tall." + "I am only" + heroage + "years old." +"My superpower is" + herosuperpower);
-    print("I am" + villianname + "I am" + villianhieght + "feet tall." + "I am only" + vilianage + "years old." + "My superpower is" + villiansuperpower);
-    print("Between" + heroname + "and" + villianname + "there is a" + agedifference + "year age difference");
-
+   
 
 
 
@@ -36,8 +33,13 @@ public class cw2 : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        
+    {int agedifference = 20 - 16;
+        print("I am" + heroname + "I am" + herohieght + "feet tall." + "I am only" + heroage + "years old." + "My superpower is" + herosuperpower);
+        print("I am" + villianname + "I am" + villianhieght + "feet tall." + "I am only" + villiainage + "years old." + "My superpower is" + villiansuperpower);
+        print("Between" + heroname + "and" + villianname + "there is a" + agedifference + "year age difference");
+
+
+
     }
 
     // Update is called once per frame
